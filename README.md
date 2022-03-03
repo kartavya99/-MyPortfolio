@@ -3,7 +3,7 @@ Portfolio
 
 Index and Style CSS files added with images in the assets folder added.
 
-In addition to above file - here is the link of fireframe layout of the portfolio 
+In addition to above file - here is the link of Wireframe layout of the portfolio 
 http://framebox.org/ApfyL
 
 
@@ -15,3 +15,4 @@ https://kartavya99.github.io/MyPortfolio/#aboutme
 ULR of the live page 
 
 There is still works need to be done to apply certain styles to make it look for attractive with pseudocode elements for the NAV bar and also for the image caption.
+
