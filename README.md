@@ -27,10 +27,3 @@ Thi is an updated portfolio as part of building toward being employer-competitiv
 ### HTML
 ### CSS
 ### Bootstrap
-
-
-
-
-
-
-
