@@ -1,18 +1,36 @@
-# -MyPortfolio
-Portfolio
+#  Updated MyPortfolio
 
-Index and Style CSS files added with images in the assets folder added.
+Thi is an updated portfolio as part of building toward being employer-competitive.
 
-In addition to above file - here is the link of Wireframe layout of the portfolio 
-http://framebox.org/ApfyL
+# Features
+* Displaying full name with contact information including email and phone number.
+* Links to Github profile and Linkedin profile.
+* Link to online resume.
+* Project 1 and tow exemplary assignments including following.
+     * Screenshot of the deployed applications.
+     * Title
+     * Link to the deployed version
+     * Link to the GitHub repository.
+* Polished, mobile-responsive user interface.
+
+# Websites
+* github : https://github.com/kartavya99/MyPortfolio.git
+* Deployed : https://kartavya99.github.io/MyPortfolio/
+
+# Screenshot
+<img src = "Assets/images/screenshot1.png" width ="400">
+<img src = "Assets/images/screenshot2.png" width ="400">
+<img src = "Assets/images/screenshot3.png" width ="400">
 
 
-There are certain properties in CSS which repeated for example 
-Background Color, border property for heading and images are repeated and I forgot use the CSS variable because I am about to submit the assignment  - using CSS variable.
+## Technologies and Libraries
+### HTML
+### CSS
+### Bootstrap
 
 
-https://kartavya99.github.io/MyPortfolio/#aboutme
-ULR of the live page 
 
-There is still works need to be done to apply certain styles to make it look for attractive with pseudocode elements for the NAV bar and also for the image caption.
+
+
+
 
