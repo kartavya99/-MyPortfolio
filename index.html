@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/50aac2a1c2.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./Assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/50aac2a1c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
     <title>Portfolio</title>
-</head>
+  </head>
 
-<body>
- <!-- header with nav bar section -->
-  <header class="p-3">
-    <ul class="nav justify-content-end p-3 nav-header">
+  <body>
+    <!-- header with nav bar section -->
+    <header class="p-3">
+      <ul class="nav justify-content-end p-3 nav-header">
         <li class="nav-item">
           <a class="nav-link active fa-solid fa-text" href="index.html">Home</a>
         </li>
@@ -28,128 +41,268 @@
           <a class="nav-link active fa-solid fa-text" href="#about">About</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active fa-solid fa-text" href="#portfolio">Portfolio</a>
-          </li>
+          <a class="nav-link active fa-solid fa-text" href="#portfolio"
+            >Portfolio</a
+          >
+        </li>
         <li class="nav-item">
-            <a class="nav-link active fa-solid fa-text" href="#footer">Contact Me</a>
+          <a class="nav-link active fa-solid fa-text" href="#footer"
+            >Contact Me</a
+          >
         </li>
       </ul>
-</header>
+    </header>
 
- <div class="container-fluid">
-    <!-- section for the photo and into -->
-    <div class="row p-3">
+    <div class="container-fluid">
+      <!-- section for the photo and into -->
+      <div class="row p-3">
         <section id="home">
-            <div id="home2">
-                <!-- <div id="greeting">Hello I'm</div>  -->
-                <span id="name">kartavya Saini</span>
-           
-            </div>           
-         </section>
-    </div>
-
-    <!-- introduction about full stack web dev -->
-    <section id="about" class="p-3">
-        <div class="row" id="about1">
-            <div class="col-sm-3">             
-                 <img src="./Assets/images/avatar.jpg" alt="tech avatar" class="img-thumbnail">
-            </div>
-            <div class="col-sm-9">
-                <h1>Hello, My name is Kartavya Saini  </h1>
-                <p class="para-intro"> I am a full stack developer student with 10+ years experience in sales and marketing. At present I am studying Full stack web development at Monash University and during the boot Camp  I have gained good understanding of computer science applied to JavaScript, browser based technologies HTML, CSS, JavaScript, JQuery and Git the version control system.</p>
-                    
-        </div>
-        </div>
-    </section>
-
-
-    <!-- portfolio section -->
-    <section id="portfolio" class="p-3" >
-        <h2 class="fa-solid fa-font-case" id="portHeading">Portfolio</h2> 
-        <div class="row p-3 mb-2" id="portfolio1">
-            <!-- <div class="col-sm-4">Weather Dashboard</div> -->
-           
-            <div class="card mb-2" style="width: 18rem;">
-                <img src="./Assets/images/weatherdisplay.png" class="card-img-top" alt="app image">
-                <div class="card-body">
-                  <h5 class="card-title">Weather Dashboard</h5>
-                  <p class="card-text"> Weather Dashboard application uses fetch API to collect information of the searched city and renders the data on HTML page with current and next five days forecast and previous search button also renders the new search too.</p>
-                </div>
-                <div class="card-footer">
-                  <a href="https://kartavya99.github.io/weatherdashboard/" class=" btn btn-info mr-2" target="_blank"><i class="fas fa-laptop-code"></i> Demo</a>
-                  <a href="https://github.com/kartavya99/weatherdashboard.git" class="btn btn-info mr-2" target="_blank"><i class="fab fa-github"></i> Github</a>
-                </div>
-              </div>
-          
-            <!-- <div class="col-sm-4">Memory Game</div> -->
-            
-             <div class="card mb-2 h-100" style="width: 18rem;">
-                <img src="./Assets/images/memorygame.png" class="card-img-top" alt="Game image">
-                <div class="card-body">
-                  <h5 class="card-title">Memory Game</h5>
-                  <p class="card-text">Memory games give space to critical thinking and that helps children nurture their attention to detail. Memory games can improve visual recognition. With many memory games based on spotting differences, or linking two related images, children improve their visual discrimination. Memory Game is built using HTML, CSS and JavaScript.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://kartavya99.github.io/memory-game/" class="btn btn-info mr-2" target="_blank"><i class="fas fa-laptop-code"></i> Demo</a>
-                    <a href="https://github.com/kartavya99/memory-game.git" class="btn btn-info mr-2" target="_blank"><i class="fab fa-github"></i> Github</a>
-                </div>
-              </div>
-           
-
-              
-
-            <!-- <div class="col-sm-4">Search-it</div> -->
-            
-            <div class="card mb-2" style="width: 18rem;">
-                <img src="./Assets/images/searchit.png" class="card-img-top" alt="App image">
-                <div class="card-body">
-                  <h5 class="card-title">Search-it</h5>
-                  <p class="card-text">A search based web application which will allow the user to gain information in the form of videos and data using YouTube API and Wikipedia API to search for information. Search-it uses fetch API to collect information from Youtube and Wikipedia.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://kartavya99.github.io/project---3/" class="btn btn-info mr-2" target="_blank"><i class="fas fa-laptop-code"></i> Demo</a>
-                    <a href="https://github.com/kartavya99/project---3.git" class="btn btn-info mr-2" target="_blank"><i class="fab fa-github"></i> Github</a>
-                </div>
-            </div>
-
-         <!-- <div class="col-sm-4">Team Profile Generator</div> -->
-            <div class="card mb-2" style="width: 18rem;">
-              <img src="./Assets/images/teamprofile.png" class="card-img-top" alt="App image">
-              <div class="card-body">
-                <h5 class="card-title">Team Profile Generator</h5>
-                <p class="card-text">A Node command-line application that predomantiely uses the inquirer package and takes in information about employees and generates an HTML webpage that renders summaries for each person on HTML page.</p>
-              </div>
-              <div class="card-footer">
-                  <a href="https://drive.google.com/file/d/1nJh5KNCzedye_ftcyRpfbpNlqcE0XO2q/view" class="btn btn-info mr-2" target="_blank"><i class="fas fa-laptop-code"></i> Demo</a>
-                  <a href="https://github.com/kartavya99/Team-Profile-Generator.git" class="btn btn-info mr-2" target="_blank"><i class="fab fa-github"></i> Github</a>
-              </div>
+          <div id="home2">
+            <!-- <div id="greeting">Hello I'm</div>  -->
+            <span id="name">kartavya Saini</span>
           </div>
-            
+        </section>
+      </div>
+
+      <!-- introduction about full stack web dev -->
+      <section id="about" class="p-3">
+        <div class="row" id="about1">
+          <div class="col-sm-3">
+            <img
+              src="./Assets/images/avatar.jpg"
+              alt="tech avatar"
+              class="img-thumbnail"
+            />
+          </div>
+          <div class="col-sm-9">
+            <h1>Hello, My name is Kartavya Saini</h1>
+            <p class="para-intro">
+              I am a full stack developer student with 10+ years experience in
+              sales and marketing. At present I am studying Full stack web
+              development at Monash University and during the boot Camp I have
+              gained good understanding of computer science applied to
+              JavaScript, browser based technologies HTML, CSS, JavaScript,
+              JQuery and Git the version control system.
+            </p>
+          </div>
         </div>
-    </section>
-    
-   
-    <!-- footer with Linkedin, github, email, resume, phone  -->
-   
-     
-    <footer id="footer">      
-            
-        <a target="_blank" class=" nav-link active fa-solid fa-text" rel="noopener noreferrer" href="https://www.linkedin.com/in/kartavya-saini-134a80121"><i
-              class="fab fa-linkedin"></i> LinkedIn</a> |
-        <a target="_blank" class=" nav-link active fa-solid fa-text" rel="noopener noreferrer" href="https://github.com/kartavya99"><i
-              class="fab fa-github"></i> GitHub</a> |
-        <a target="_blank" class=" nav-link active fa-solid fa-text" rel="noopener noreferrer" href="mailto:kartavyas@gmail.com"><i
-              class="fas fa-envelope"></i> Email</a> |
-        <a target="_blank"  class=" nav-link active fa-solid fa-text" rel="noopener noreferrer" href="https://kartavya-saini.w3spaces.com/index.html"><i
-              class="fas fa-file-pdf"></i> Resume</a> |
-        <a target="_blank"  class=" nav-link active fa-solid fa-text" rel="noopener noreferrer" href=""><i class="fas fa-phone-volume"></i>
-          Phone</a>
-          
-    </footer>
-  
-</div>
+      </section>
 
+      <!-- portfolio section -->
+      <section id="portfolio" class="p-3">
+        <h2 class="fa-solid fa-font-case" id="portHeading">Portfolio</h2>
+        <div class="row p-3 mb-2" id="portfolio1">
+          <!-- <div class="col-sm-4">Weather Dashboard</div> -->
 
-</body>
+          <div class="card mb-2" style="width: 18rem">
+            <img
+              src="./Assets/images/weatherdisplay.png"
+              class="card-img-top"
+              alt="app image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Weather Dashboard</h5>
+              <p class="card-text">
+                Weather Dashboard application uses fetch API to collect
+                information of the searched city and renders the data on HTML
+                page with current and next five days forecast and previous
+                search button also renders the new search too.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://kartavya99.github.io/weatherdashboard/"
+                class="btn btn-info mr-2"
+                target="_blank"
+                ><i class="fas fa-laptop-code"></i> Demo</a
+              >
+              <a
+                href="https://github.com/kartavya99/weatherdashboard.git"
+                class="btn btn-info mr-2"
+                target="_blank"
+                ><i class="fab fa-github"></i> Github</a
+              >
+            </div>
+          </div>
 
+          <!-- <div class="col-sm-4">Memory Game</div> -->
+
+          <div class="card mb-2 h-100" style="width: 18rem">
+            <img
+              src="./Assets/images/memorygame.png"
+              class="card-img-top"
+              alt="Game image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Memory Game</h5>
+              <p class="card-text">
+                Memory games give space to critical thinking and that helps
+                children nurture their attention to detail. Memory games can
+                improve visual recognition. With many memory games based on
+                spotting differences, or linking two related images, children
+                improve their visual discrimination. Memory Game is built using
+                HTML, CSS and JavaScript.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://kartavya99.github.io/memory-game/"
+                class="btn btn-info mr-2"
+                target="_blank"
+                ><i class="fas fa-laptop-code"></i> Demo</a
+              >
+              <a
+                href="https://github.com/kartavya99/memory-game.git"
+                class="btn btn-info mr-2"
+                target="_blank"
+                ><i class="fab fa-github"></i> Github</a
+              >
+            </div>
+          </div>
+
+          <!-- <div class="col-sm-4">Search-it</div> -->
+
+          <div class="card mb-2" style="width: 18rem">
+            <img
+              src="./Assets/images/searchit.png"
+              class="card-img-top"
+              alt="App image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Search-it</h5>
+              <p class="card-text">
+                A search based web application which will allow the user to gain
+                information in the form of videos and data using YouTube API and
+                Wikipedia API to search for information. Search-it uses fetch
+                API to collect information from Youtube and Wikipedia.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://kartavya99.github.io/project---3/"
+                class="btn btn-info mr-2"
+                target="_blank"
+                ><i class="fas fa-laptop-code"></i> Demo</a
+              >
+              <a
+                href="https://github.com/kartavya99/project---3.git"
+                class="btn btn-info mr-2"
+                target="_blank"
+                ><i class="fab fa-github"></i> Github</a
+              >
+            </div>
+          </div>
+
+          <!-- <div class="col-sm-4">Team Profile Generator</div> -->
+          <div class="card mb-2" style="width: 18rem">
+            <img
+              src="./Assets/images/teamprofile.png"
+              class="card-img-top"
+              alt="App image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Team Profile Generator</h5>
+              <p class="card-text">
+                A Node command-line application that predomantiely uses the
+                inquirer package and takes in information about employees and
+                generates an HTML webpage that renders summaries for each person
+                on HTML page.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://drive.google.com/file/d/1nJh5KNCzedye_ftcyRpfbpNlqcE0XO2q/view"
+                class="btn btn-info mr-2"
+                target="_blank"
+                ><i class="fas fa-laptop-code"></i> Demo</a
+              >
+              <a
+                href="https://github.com/kartavya99/Team-Profile-Generator.git"
+                class="btn btn-info mr-2"
+                target="_blank"
+                ><i class="fab fa-github"></i> Github</a
+              >
+            </div>
+          </div>
+
+          <!-- <div class="col-sm-4">TogetherFitness </div> -->
+          <div class="card mb-2" style="width: 18rem">
+            <img
+              src="./Assets/images/togetherfitness.png"
+              class="card-img-top"
+              alt="App image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">TOGETHER FITNESS</h5>
+              <p class="card-text">
+                Using Together Fitness user can search through the list of
+                workouts and can choose the workout with its location plus user
+                can create workout. Technologies Used: Node.js, Express,
+                Sequelize, MySQL, JAWSDB, Heroku, JQuery, Bootstrap, Dotenv,
+                BCrypt Hash Password, Geolocation API, Google Place API
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://together-fitness.herokuapp.com/"
+                class="btn btn-info mr-2"
+                target="_blank"
+                ><i class="fas fa-laptop-code"></i> Demo</a
+              >
+              <a
+                href="https://github.com/kartavya99/p2-t3-togetherfitness.git"
+                class="btn btn-info mr-2"
+                target="_blank"
+                ><i class="fab fa-github"></i> Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer with Linkedin, github, email, resume, phone  -->
+
+      <footer id="footer">
+        <a
+          target="_blank"
+          class="nav-link active fa-solid fa-text"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/kartavya-saini-134a80121"
+          ><i class="fab fa-linkedin"></i> LinkedIn</a
+        >
+        |
+        <a
+          target="_blank"
+          class="nav-link active fa-solid fa-text"
+          rel="noopener noreferrer"
+          href="https://github.com/kartavya99"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        |
+        <a
+          target="_blank"
+          class="nav-link active fa-solid fa-text"
+          rel="noopener noreferrer"
+          href="mailto:kartavyas@gmail.com"
+          ><i class="fas fa-envelope"></i> Email</a
+        >
+        |
+        <a
+          target="_blank"
+          class="nav-link active fa-solid fa-text"
+          rel="noopener noreferrer"
+          href="https://kartavya-saini.w3spaces.com/index.html"
+          ><i class="fas fa-file-pdf"></i> Resume</a
+        >
+        |
+        <a
+          target="_blank"
+          class="nav-link active fa-solid fa-text"
+          rel="noopener noreferrer"
+          href=""
+          ><i class="fas fa-phone-volume"></i> Phone</a
+        >
+      </footer>
+    </div>
+  </body>
 </html>
